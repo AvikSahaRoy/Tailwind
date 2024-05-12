@@ -20,18 +20,18 @@
 
 - Step 3 (tailwind.config.js):
     ```
-        /** @type {import('tailwindcss').Config} */
-        export default {
-        content: [
-            "./index.html",
-            "./src/**/*.{js,ts,jsx,tsx}",
-        ],
-        theme: {
-            extend: {},
-        },
-        plugins: [],
-        }
-        ```
+    /** @type {import('tailwindcss').Config} */
+    export default {
+    content: [
+        "./index.html",
+        "./src/**/*.{js,ts,jsx,tsx}",
+    ],
+    theme: {
+        extend: {},
+    },
+    plugins: [],
+    }
+    ```
 
 - Step 4 (./src/index.css):
     ```
@@ -40,12 +40,13 @@
     @tailwind utilities;
     ```
 
-- Step 5 (run):
+- Step 5 (run project):
     ```
     npm run dev
     ```
 
-## App.jsx
+## Start using Tailwind in your project
+#### App.jsx
 ```
 export default function App() {
   return (
