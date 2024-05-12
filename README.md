@@ -1,5 +1,10 @@
 # Tailwind css
 
+### Website - 
+```
+https://tailwindcss.com/docs/guides/vite
+```
+
 ## Install Tailwind CSS with Vite
 
 - Step 1 (Create Vite):
