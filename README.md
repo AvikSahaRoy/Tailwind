@@ -3,12 +3,20 @@
 ## Install Tailwind CSS with Vite
 
 - Step 1 (Create Vite):
-    - npm create vite@latest my-project -- --template react
-    - cd my-project
+    ```
+    npm create vite@latest my-project -- --template react
+    ```
+    ```
+    cd my-project
+    ```
 
 - Step 2 (Install Tailwind CSS):
-    - npm install -D tailwindcss postcss autoprefixer
-    - npx tailwindcss init -p
+    ```
+    npm install -D tailwindcss postcss autoprefixer
+    ```
+    ```
+    npx tailwindcss init -p
+    ```
 
 - Step 3 (tailwind.config.js):
     - ```
@@ -26,12 +34,16 @@
         ```
 
 - Step 4 (./src/index.css):
-    - @tailwind base;
-    - @tailwind components;
-    - @tailwind utilities;
+    ```
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+    ```
 
 - Step 5 (run):
-    - npm run dev
+    ```
+    npm run dev
+    ```
 
 ## App.jsx
 ```
